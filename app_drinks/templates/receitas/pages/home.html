@@ -5,41 +5,11 @@
 
     <main class="main-content-container">
         <div class="main-content main-content-list container">
-            <div class=" receita receite-list-item">
-                <div class="receita-cover">
-                    <img src="https://via.placeholder.com/1280x720.png/269fe6" alt="Temporário">
-                </div>
-
-                <div class="receitas-titulo-container">
-                    <h2 class="receita-titulo">Título Receita</h2>
-                </div>
-
-                <div class="receita-autor">
-                    <span class="receita-autor-item">
-                        <i class="fas fa-user"></i>
-                        Lucas Bizachi
-                    </span>
-                    <span class="receita-autor-item">
-                        <i class="fas fa-calendar-alt"></i>
-                        01/01/2023 às 10:41
-                    </span>
-                    <span class="receita-autor-item">
-                        <a href="receitas/category/vodka">
-                            <i class="fas fa-layer-group"></i>
-                            <span>Vodka</span>
-                        </a>
-                    </span>
-                </div>
-
-                <div class="receita-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium at, sunt quis consequuntur praesentium labore! Veniam ipsum nihil facilis adipisci pariatur perspiciatis reprehenderit repellendus et accusantium id, repellat, deserunt est.</p>
-                </div>
-            
-            </div>
-
+            {%include 'receitas/partials/coqueteis.html'%}
         </div>
 
     </main>
-    
+    {%include 'receitas/partials/footer.html'%}
+
 </body>
 </html>
